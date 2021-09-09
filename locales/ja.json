@@ -1,17 +1,17 @@
 {
   "button": {
-      "about": "About",
-      "back": "Back",
-      "go": "GO",
-      "home": "Home",
-      "toggle_dark": "Toggle dark mode",
-      "toggle_langs": "Change languages"
+    "about": "About",
+    "back": "Back",
+    "go": "GO",
+    "home": "Home",
+    "toggle_dark": "Toggle dark mode",
+    "toggle_langs": "Change languages"
   },
-  "intro":{
-"desc": "desc",
-"dynamic-route": "dynamic-route",
-"hi": "Hi、{name}!",
-"whats-your-name": "whats-your-name"
+  "intro": {
+    "desc": "desc",
+    "dynamic-route": "dynamic-route",
+    "hi": "Hi、{name}!",
+    "whats-your-name": "whats-your-name"
   },
-"not-found": "not-found"
-} 
+  "not-found": "not-found"
+}
