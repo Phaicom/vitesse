@@ -10,6 +10,7 @@ import AutoImport from 'unplugin-auto-import/vite'
 import WindiCSS from 'vite-plugin-windicss'
 import { VitePWA } from 'vite-plugin-pwa'
 import VueI18n from '@intlify/vite-plugin-vue-i18n'
+import Inspect from 'vite-plugin-inspect'
 
 export default defineConfig({
   resolve: {
@@ -102,6 +103,12 @@ export default defineConfig({
       runtimeOnly: true,
       compositionOnly: true,
       include: [path.resolve(__dirname, 'locales/**')],
+    }),
+
+    // https://github.com/antfu/vite-plugin-inspect
+    Inspect({
+      // change this to enable inspect for debugging
+      enabled: false,
     }),
   ],
 
